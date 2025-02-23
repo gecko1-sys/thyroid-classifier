@@ -3,8 +3,9 @@ import pandas as pd
 import joblib
 
 # Load trained model and label encoder
-model = joblib.load("C:/Users/user/Desktop/STATISTICAL METHODS/thyroid_model.pkl")
-label_encoder = joblib.load("C:/Users/user/Desktop/STATISTICAL METHODS/label_encoder.pkl")
+model = joblib.load("thyroid_model.pkl")
+label_encoder = joblib.load("label_encoder.pkl")
+
 
 # Mapping of numerical predictions to labels
 class_labels = {
